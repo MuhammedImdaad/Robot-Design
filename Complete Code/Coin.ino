@@ -77,7 +77,7 @@ int colorFilter(){
   for(int i=0;i<10;i++){
     value = value+color_detection();
   }
-  value = value/10;
+  value = value/100;
   if(abs(value-0)<0.5){
     color = 0;
   }else if(abs(value-1)<0.5){
